@@ -1,5 +1,5 @@
 // Historique prive Patron / partage Gerant — version 49
-const CACHE='gamezone-58-alarms-bonus-20261009';
+const CACHE='gamezone-test-v62-gerant-20261010-correctif1';
 const ASSETS=['./','./index.html','./manifest.webmanifest'];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));
